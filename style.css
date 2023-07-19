@@ -25,6 +25,7 @@ h3{
     opacity: 0.8;
 }
 
+/*****MAIN PROPERTIES******/
 main{
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
@@ -34,6 +35,7 @@ main{
     justify-content: center;
 }
 
+/*****GLASS PROPERTIES******/
 .glass{
     background: white;
     min-height: 80vh;
@@ -44,6 +46,9 @@ main{
     backdrop-filter: blur(2rem);
     display: flex;
 }
+
+
+/*****CIRCLE PROPERTIES******/
 
 .circle1, .circle2{
     background: white;
@@ -64,6 +69,7 @@ main{
     left: 10%;
 }
 
+/*****DASHBOARD PROPERTIES******/
 .dashboard{
     flex: 1;
     display: flex;
@@ -121,7 +127,7 @@ main{
     flex: 2;
 }
 
-/*MAIN:SKILLS*/
+/*****MAIN SKILLS PROPERTIES******/
 .main{
     margin-bottom: 3rem;
 }
